@@ -1,0 +1,54 @@
+{% load static %}
+<header class="header bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 text-white py-5 px-4 rounded-lg shadow-lg mx-auto max-w-4xl mt-5 fade-in">
+    <div class="container text-center">
+        <h1 class="title text-5xl md:text-7xl font-bold mb-4 gradient-text glow">
+            VibeTunes 🎶
+        </h1>
+        <p class="subtitle text-xl md:text-2xl font-light">
+            Choose your mood, hear your tune!
+        </p>
+    </div>
+</header>
+
+<style>
+    .header {
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .gradient-text {
+        background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .glow {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.2);
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.2);
+        }
+        to {
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.3);
+        }
+    }
+
+    .fade-in {
+        animation: fadeIn 1.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
