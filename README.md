@@ -3,11 +3,7 @@
 A Django-based web application that allows users to select their mood and get a matching Spotify playlist. The app features a responsive design with smooth animations and integrates with the Spotify API for dynamic playlist recommendations.
 
 
-![Mood Music Screenshot](Images/project_demo.png)
-
-
-
-
+<img width="1365" height="630" alt="project_demo" src="https://github.com/user-attachments/assets/6ef3638b-9dd9-4567-83bf-d878c40f5bec" />
 
 ## Features
 
